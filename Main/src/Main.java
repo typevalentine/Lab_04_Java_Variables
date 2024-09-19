@@ -20,26 +20,23 @@ public class Main
         intSum = intOperandA + intOperandB;
         System.out.println("The sum using two ints: " + intOperandA + " and " + intOperandB + " is " + intSum);
         intProduct = intOperandA * intOperandB;
+        System.out.println("The product using two ints: " + intOperandA + " and " + intOperandB + " is " + intProduct);
         intDifference = intOperandA - intOperandB;
-        intQuotient = intOperandA / intOperandB;
+        System.out.println("The difference using two ints: " + intOperandA + " and " + intOperandB + " is " + intDifference);
+        intQuotient = intOperandB / intOperandA;
+        System.out.println("The quotient using two ints: " + intOperandA + " and " + intOperandB + " is " + intQuotient);
         intModulo = intOperandA % intOperandB;
+        System.out.println("The modulo using two ints: " + intOperandA + " and " + intOperandB + " is " + intModulo);
 
         doubleSum = doubleOperandA + doubleOperandB;
+        System.out.println("The double sum using two ints: " + doubleOperandA + " and " + doubleOperandB + " is " + doubleSum);
         doubleProduct = doubleOperandA * doubleOperandB;
+        System.out.println("The double product using two ints: " + doubleOperandA + " and " + doubleOperandB + " is " + doubleProduct);
         doubleDifference = doubleOperandA - doubleOperandB;
+        System.out.println("The double difference using two ints: " + doubleOperandA + " and " + doubleOperandB + " is " + doubleDifference);
         doubleQuotient = doubleOperandA / doubleOperandB;
+        System.out.println("The double quotient using two ints: " + doubleOperandA + " and " + doubleOperandB + " is " + doubleQuotient);
         doubleModulo= doubleOperandA % doubleOperandB;
-
-
-        System.out.println("The product of ints: " + intOperandA + " and " + intOperandB + " is " + intProduct);
-        System.out.println("The difference of ints: " + intOperandA + " and " + intOperandB + " is " + intDifference);
-        System.out.println("The quotient of ints: " + intOperandA + " and " + intOperandB + " is " + intQuotient);
-        System.out.println("The modulo of ints: " + intOperandA + " and " + intOperandB + " is " + intModulo);
-
-        System.out.println("The double sum of ints: " + doubleOperandA + " and " + doubleOperandB + " is " + doubleSum);
-        System.out.println("The double product of ints: " + doubleOperandA + " and " + doubleOperandB + " is " + doubleProduct);
-        System.out.println("The double difference of ints: " + doubleOperandA + " and " + doubleOperandB + " is " + doubleDifference);
-        System.out.println("The double quotient of ints: " + doubleOperandA + " and " + doubleOperandB + " is " + doubleQuotient);
-        System.out.println("The double modulo of ints: " + doubleOperandA + " and " + doubleOperandB + " is " + doubleModulo);
+        System.out.println("The double modulo using two ints: " + doubleOperandA + " and " + doubleOperandB + " is " + doubleModulo);
     }
 }
